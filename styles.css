@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Style+Script&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +10,7 @@
 
 body, html {
     height: 100%;
-    font-family: 'Arial', sans-serif;
+    font-family: "Style Script", cursive;    
 }
 
 .container {
@@ -52,8 +56,8 @@ body, html {
 }
 
 .highlight {
-    font-weight: bold;
-    font-style: italic;
+    font-family: "Freeman", sans-serif;
+    font-weight: bold;    
     color: #d9534f;    
 }
 

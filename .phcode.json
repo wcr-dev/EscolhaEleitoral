@@ -1,0 +1,7 @@
+{
+    "livePreviewUseDevServer": false,
+    "livePreviewServerProjectPath": "/home/willcr/WCR-Dev/EscolhaEleitoral",
+    "livePreviewHotReloadSupported": true,
+    "livePreviewFramework": "Custom",
+    "livePreviewServerURL": "http://192.168.3.15/WCR-Dev/EscolhaEleitoral"
+}

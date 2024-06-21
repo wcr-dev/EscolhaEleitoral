@@ -38,7 +38,7 @@ function adjustFontSize() {
 
     // Ajuste a proporção do tamanho da fonte e altura da linha conforme necessário
     let fontSize = rectHeight / 15;  // Exemplo de proporção para o tamanho da fonte
-    let lineHeight = fontSize * 1; // Proporção para a altura da linha
+    let lineHeight = fontSize * 1.5; // Proporção para a altura da linha
 
     text.style.fontSize = `${fontSize}px`;
     text.style.lineHeight = `${lineHeight}px`;
