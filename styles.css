@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.rectangle {
+    /* Ajuste aqui a largura e altura do retângulo */
+    width: 50%; /* Exemplo: pode ajustar para 60%, 70%, etc. */
+    height: 80%; /* Exemplo: pode ajustar para 70%, 60%, etc. */
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.flag-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.artistic-text {
+    text-align: center;
+    line-height: 1.4;
+    position: relative;
+    transition: transform 0.1s ease-out;
+    white-space: normal;
+}
+
+.highlight {
+    font-weight: bold;
+    font-style: italic;
+    color: #d9534f;    
+}
+
+.splatters {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.splatter {
+    position: absolute;
+    background-color: transparent;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.splatter1 { width: 150px; height: 150px; background-color: blue; top: 80%; left: 0%}
+.splatter2 { width: 100px; height: 100px; background-color: green; top: 65%; left: 90%; }
+.splatter3 { width: 120px; height: 120px; background-color: yellow; top: 1%; left: 10%; }
+.splatter4 { width: 80px; height: 80px; background-color: purple; top: 35%; left: 1%; }
+.splatter5 { width: 140px; height: 140px; background-color: pink; top: 91%; left: 55%; }
+.splatter6 { width: 90px; height: 90px; background-color: red; top: 35%; left: 85%; }
+.splatter7 { width: 110px; height: 110px; background-color: white; top: 1%; left: 85%; }
+.splatter8 { width: 130px; height: 130px; background-color: black; top: 3%; left: 86%; }
+
+@media (max-width: 768px) {
+    .rectangle {
+        width: 80%; /* Ajuste para dispositivos móveis */
+        height: 85%; /* Ajuste para dispositivos móveis */
+    }
+
+    .splatter1 { width: 100px; height: 100px; }
+    .splatter2 { width: 70px; height: 70px; }
+    .splatter3 { width: 90px; height: 90px; }
+    .splatter4 { width: 60px; height: 60px; }
+    .splatter5 { width: 100px; height: 100px; }
+    .splatter6 { width: 60px; height: 60px; }
+    .splatter7 { width: 80px; height: 80px; }
+    .splatter8 { width: 90px; height: 90px; }
+}
+
