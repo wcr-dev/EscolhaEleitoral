@@ -11,3 +11,5 @@ Um luga para achar emojis é no [Emojipedia](https://emojipedia.org/)
 
 Um repositório para ver os codigos de emoji em **Markdown** 🤘 é no [repositório](https://github.com/ikatyang/emoji-cheat-sheet)
 
+
+Um teste na maquina
